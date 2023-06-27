@@ -1,0 +1,35 @@
+.created_form {
+    margin-top: 30px;
+    .form_control {
+        margin: 36px 1rem;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    .form_item {
+        width: 500px;
+        max-width: 100%;
+        padding: 0 0.3rem;
+        margin: 0.8rem 0;
+    }
+    .form_item:nth-child(4) {
+        padding-left: 1rem;
+
+        .input_checkbox {
+            color: $primary-color;
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+    }
+
+    .cards_list {
+        padding: 1rem;
+        @apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
+        margin-bottom: 100px;
+    }
+    @screen md {
+        padding: 0 5rem;
+    }
+}

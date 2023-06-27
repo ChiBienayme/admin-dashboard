@@ -1,0 +1,25 @@
+
+.card_user {
+    .btn_edit {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 50%);
+        transition: 0.3s ease-out;
+    }
+
+    // &:hover .btn_edit {
+    //     transform: translate(-50%, 50%);
+    //     opacity: 1;
+    // }
+
+    &:hover .btn_circle {
+        background: $secondary-color;
+        color: #fff;
+        font-size: 1.6rem;
+    }
+
+    .text-body:nth-child(4) {
+        text-transform: capitalize;
+    }
+}

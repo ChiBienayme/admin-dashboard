@@ -1,0 +1,50 @@
+@import '@/main.scss';
+
+.search {
+    &_form {
+        @include center;
+        flex-direction: column;
+        margin: 0 1rem;
+    }
+
+    &_form_item {
+        width: 500px;
+        max-width: 100%;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 70% 1fr;
+        gap: 1rem;
+    }
+
+    @screen sm {
+        padding: 0 1rem;
+    }
+
+    .input {
+        margin-bottom: 0;
+    }
+    .input-container {
+        position: relative;
+    }
+
+    .btn-X {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        svg {
+            width: 16px;
+            height: 16px;
+            fill: #999;
+        }
+    }
+}

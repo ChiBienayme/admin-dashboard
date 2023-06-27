@@ -1,0 +1,56 @@
+.btn {
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    transition: 0.3s ease;
+
+    &_submit {
+        width: 100%;
+        background: $primary-color;
+        color: white;
+        padding: 1.5rem;
+
+        &-sm {
+            padding: 0.5rem 1rem;
+            background-color: $secondary-color;
+            color: white;
+        }
+
+        &:hover {
+            transform: scale(1.009);
+            box-shadow: 0px 0px 3px 0px #212529;
+        }
+    }
+
+    &_cancel {
+        padding: 0.8rem 1rem;
+    }
+
+    &_edit {
+        width: 60%;
+        padding: 0.5rem 1rem;
+        background-color: $secondary-color;
+        color: #fff;
+    }
+
+    &_search {
+        background-color: #008bf8;
+        color: #fff;
+        padding: 8px 16px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.btn_circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: rgb(134, 134, 134);
+    font-size: 1.8rem;
+    transition: 0.3s ease;
+}

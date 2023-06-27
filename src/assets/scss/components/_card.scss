@@ -1,0 +1,39 @@
+.card {
+    position: relative;
+
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+
+    padding: 2rem 1.8rem;
+    margin-top: 2em;
+    border-radius: 10px;
+    background: $white-color;
+    border: 1px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+
+    &:hover {
+        border-color: $secondary-color;
+        box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    &-details {
+        color: black;
+        height: 100%;
+        gap: 0.5em;
+        display: grid;
+        place-content: center;
+    }
+
+    .text {
+        &-body {
+            color: rgb(134, 134, 134);
+        }
+
+        &-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    }
+}

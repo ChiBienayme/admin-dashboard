@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// * ===== Global ===== * //
+@import 'common/global';
+@import 'common/fonts';
+@import 'common/mixins';
+@import 'common/variables';
+
+// * ===== atoms ===== * //
+@import 'atom/btn';
+@import 'atom/input';
+@import 'atom/title';
+
+// * ===== components ===== * //
+@import 'components/card';
